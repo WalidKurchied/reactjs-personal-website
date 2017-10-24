@@ -1,0 +1,101 @@
+#homeContainer {
+
+    // Photo by Team UI8 on Unsplash
+    #homeSectionOne {
+        height: 700px;
+        background-image: url('../images/img.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.85;
+
+        #developerCaptionContainer {
+            position: relative;
+            top: 138px;
+        }
+
+        .captionText {
+            background: #000000;
+            color: white;
+            padding: 22px;
+            letter-spacing: 20px;
+            font-size: 12px;
+        }
+
+        .name-caption {
+            position: absolute;
+            top: 160px;
+            right: 0;
+            box-shadow: 0 0 20px black;
+        }
+    }
+
+    #Hruler {
+        padding: 10px;
+        background-color: steelblue;
+    }
+
+    #devInfo {
+        height: 500px;
+        padding: 40px;
+        background-color: #fcfcfd;
+        position: relative;
+
+        img {
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            top: 0;
+            bottom: 0;
+            left: 96px;
+            border: 1px solid white;
+            margin: auto;
+            border-radius: 20%;
+        }
+
+        #leftArticle {
+            position: absolute;
+            left: 40px;
+            width: 45%;
+        }
+
+        #rightArticle {
+            position: absolute;
+            right: 40px;
+            width: 45%;
+        }
+        h1 {
+            color: #000000;
+            letter-spacing: 6px;
+            font-size: 15px;
+            margin: 12px 0 35px 0;
+            font-weight: normal;
+        }
+        p {
+            word-spacing: 5px;
+            line-height: 35px;
+        }
+    }
+
+    #homeSectionTwo {
+        height: 150px;
+        background-color: #ffffff;
+        padding: 20px;
+        h1 {
+            text-align: center;
+            color: #000000;
+            letter-spacing: 6px;
+            font-size: 15px;
+            // margin-bottom: 55px;
+            margin: 12px 0 55px 0;
+            font-weight: normal;
+        }
+        #technologiesListContainer {
+            text-align: center;
+        }
+        .colored {
+            font-size: 25px;
+            margin: 31px;
+        }
+    }
+}
