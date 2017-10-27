@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="980px" height="767px" viewBox="0 0 980 767" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>df7661252b8bb49f3f8df1fbfecf0ca1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-2" font-family="BigCaslon-Medium, Big Caslon" font-size="144" font-weight="400">
+            <tspan x="336" y="730">W K</tspan>
+        </text>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="df7661252b8bb49f3f8df1fbfecf0ca1">
+            <g id="Shape" fill-rule="nonzero" fill="#FFF110">
+                <path d="M195.9,596 C277.8,569.5 379.6,553.8 490,553.8 C600.4,553.8 702.2,569.5 784.1,596 C788,560.8 801.9,516.5 833.8,461.7 C938.8,281.7 938.8,281.7 938.8,281.7 C938.8,281.7 713.7,521.7 608.7,476.7 C506.1,432.7 490,0.3 490,0.3 C473.9,157 473.9,432.7 371.3,476.7 C266.3,521.7 41.2,281.7 41.2,281.7 C41.2,281.7 41.2,281.7 146.2,461.7 C178.2,516.4 192,560.8 195.9,596 Z" fill-opacity="0.807801178"></path>
+                <path d="M449,41.2 C449,63.9899099 467.484324,82.4 490.2,82.4 C512.98991,82.4 531.4,63.9156757 531.4,41.2 C531.4,18.4100901 512.915676,0 490.2,0 C467.41009,2.10986384e-14 449,18.4843243 449,41.2 Z"></path>
+                <path d="M897.6,279.4 C897.6,302.2 916,320.6 938.8,320.6 C961.6,320.6 980,302.2 980,279.4 C980,256.6 961.6,238.2 938.8,238.2 C916,238.2 897.6,256.6 897.6,279.4 Z"></path>
+                <path d="M0,279.4 C0,302.2 18.4,320.6 41.2,320.6 C64,320.6 82.4,302.2 82.4,279.4 C82.4,256.6 64,238.2 41.2,238.2 C18.4,238.2 0,256.6 0,279.4 Z"></path>
+            </g>
+            <g id="W-K">
+                <use fill="" fill-rule="evenodd" xlink:href="#text-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#text-2"></use>
+                <use stroke="#979797" stroke-width="1" xlink:href="#text-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

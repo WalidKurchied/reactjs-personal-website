@@ -1,7 +1,14 @@
-import React, { Component }from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import App from './components/App.js';
 
-require('./sass/index.scss');
+import './sass/index.scss';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <Router>
+        <Switch>
+            <Route exact path="/public" component={App} />
+        </Switch>
+    </Router>
+    ,document.getElementById('root'));

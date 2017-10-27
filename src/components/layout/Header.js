@@ -11,7 +11,7 @@ export default class Header extends Component {
                     <a href="#">Coming Soon</a>
                     <a href="#">Coming Soon</a>
                 </nav>
-                { /* <img src={require("../../images/me.jpg")} width="60px" height="80px" /> */ }
+                {/* <img src={require("../../images/logo.svg")} width="60px" height="80px" /> */}
 
                 <section id="headerIconsContainer">
                     <a href="https://www.linkedin.com/in/walidkurchied"><i className="fa fa-linkedin-square header-icon" aria-hidden="true"></i></a>

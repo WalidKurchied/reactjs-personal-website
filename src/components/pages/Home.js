@@ -12,9 +12,6 @@ export default class Home extends Component {
                     </section>
                 </section>
 
-                <section id="Hruler">
-                </section>
-
                 <section id="devInfo">
                     <article id="leftArticle">
                         <h1>
@@ -62,6 +59,16 @@ export default class Home extends Component {
                         <i className="devicon-cucumber-plain colored"></i>
                         <i className="devicon-webpack-plain colored"></i>
                    </div>
+                </section>
+
+                <section id="expSection">
+                    <h1>COMPANIES I WORKED FOR</h1>
+                    <div id="companiesContainer">
+                        <img src={require("../../images/ibm.png")} width="60px" className="company-img" />
+                        <img src={require("../../images/groupon2.png")} width="60px" className="company-img" />
+                        <img src={require("../../images/topfloor.png")} width="60px" className="company-img" />
+                        <img src={require("../../images/wholeschool.jpg")} width="60px" className="company-img" />
+                    </div>       
                 </section>
             </div>
         );
