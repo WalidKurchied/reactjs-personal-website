@@ -61,15 +61,15 @@ export default class Home extends Component {
                    </div>
                 </section>
 
-                <section id="expSection">
+                {/* <section id="expSection">
                     <h1>COMPANIES I WORKED FOR</h1>
                     <div id="companiesContainer">
-                        <img src={require("../../images/ibm.png")} width="60px" className="company-img" />
-                        <img src={require("../../images/groupon2.png")} width="60px" className="company-img" />
-                        <img src={require("../../images/topfloor.png")} width="60px" className="company-img" />
-                        <img src={require("../../images/wholeschool.jpg")} width="60px" className="company-img" />
+                        <img src={require("../../images/ibm.png")} width="60px" height="33px" className="company-img" />
+                        <img src={require("../../images/groupon2.png")} width="60px" height="33px" className="company-img" />
+                        <img src={require("../../images/topfloor.png")} width="60px" height="33px" className="company-img" />
+                        <img src={require("../../images/wholeschool.jpg")} width="60px" height="33px" className="company-img" />
                     </div>       
-                </section>
+                </section> */}
             </div>
         );
     }

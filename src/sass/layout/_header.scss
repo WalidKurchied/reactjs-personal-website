@@ -3,6 +3,10 @@
     vertical-align: middle;
     line-height: 50px;
 
+    #burgerMenu {
+        display: none;
+    }
+
     nav {
         width: 60%;
         margin-left: 40px;
@@ -41,6 +45,30 @@
         .header-icon:hover {
             cursor: pointer;
             box-shadow: 0 0 1px black;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #header{
+    
+        #burgerMenu {
+            display: inline;
+            margin-left: 15px;
+            font-size: 22px;
+            transition: 0.5s;
+        }
+
+        nav {
+            display: none;
+            & > a {
+                display: block;
+                margin: 0;
+            }
+        }
+
+        #headerIconsContainer {
+            display: none;
         }
     }
 }

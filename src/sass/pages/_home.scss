@@ -33,7 +33,7 @@
     }
 
     #devInfo {
-        height: 500px;
+        height: 300px;
         padding: 40px;
         background-color: #171E27;
         position: relative;
@@ -84,12 +84,12 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         h1 {
             text-align: center;
             color: #c1c1c1;
             letter-spacing: 6px;
             font-size: 15px;
-            // margin-bottom: 55px;
             margin: 12px 0 55px 0;
             font-weight: normal;
             margin-top: -30px;
@@ -97,6 +97,9 @@
         }
         #technologiesListContainer {
             text-align: center;
+            overflow-x: auto;
+            padding: 10px;
+            width: 100%;
         }
         .colored {
             font-size: 25px;
@@ -115,7 +118,7 @@
 
          h1 {
              text-align: center;
-             color: black;
+             color: #5a5959;
              letter-spacing: 6px;
              font-size: 15px; // margin-bottom: 55px;
              margin: 12px 0 55px 0;
@@ -125,14 +128,41 @@
          }
 
          #companiesContainer {
-            display: flex;
-            justify-content: center;
-            flex-direction: row;
-            align-items: center;
          }
 
          .company-img {
-             margin-left: 50px;
-         }
+            margin: 0 31px;
+        }
     }
 }
+
+    @media screen and (max-width: 900px) {
+        #homeContainer {
+            #homeSectionOne {
+                .name-caption {
+                    top: 180px;
+                    line-height: 25px;
+                    text-align: center;
+                    border-top-left-radius: 0px;
+                    border-bottom-left-radius: 0px;
+                }  
+            }
+
+            #devInfo {
+                height: auto;
+
+                #leftArticle {
+                    position: relative;
+                    left: 0;
+                    width: 100%;
+                }
+
+                #rightArticle {
+                    position: relative;
+                    right: auto;
+                    width: 100%;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
