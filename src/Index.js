@@ -8,7 +8,7 @@ import './sass/index.scss';
 ReactDOM.render(
     <Router>
         <Switch>
-            <Route exact path="/public" component={App} />
+            <Route exact path="/" component={App} />
         </Switch>
     </Router>
     ,document.getElementById('root'));

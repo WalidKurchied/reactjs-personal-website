@@ -63,10 +63,23 @@
             right: 40px;
             width: 45%;
         }
+
+        .find-out-btn {
+            background: royalblue;
+            border: none;
+            outline: none;
+            width: 150px;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 25px;
+            cursor: pointer;
+            color: white;
+        }
+
         h1 {
             color: #c1c1c1;
             letter-spacing: 6px;
-            font-size: 15px;
+            font-size: 13px;
             margin: 12px 0 35px 0;
             font-weight: normal;
         }
@@ -78,7 +91,7 @@
 
     #homeSectionTwo {
         height: 180px;
-        background-color: #272259;
+        background-color: #f8f8ff;
         padding: 20px;
         display: flex;
         justify-content: center;
@@ -87,9 +100,9 @@
 
         h1 {
             text-align: center;
-            color: #c1c1c1;
+            color: #4a4a4a;
             letter-spacing: 6px;
-            font-size: 15px;
+            font-size: 13px;
             margin: 12px 0 55px 0;
             font-weight: normal;
             margin-top: -30px;
@@ -109,7 +122,7 @@
 
     #expSection {
          height: 180px;
-         background-color: #E0E2DB;
+         background-color: #171E27;
          padding: 20px;
          display: flex;
          justify-content: center;
@@ -118,9 +131,9 @@
 
          h1 {
              text-align: center;
-             color: #5a5959;
+             color: #c1c1c1;
              letter-spacing: 6px;
-             font-size: 15px; // margin-bottom: 55px;
+             font-size: 13px; // margin-bottom: 55px;
              margin: 12px 0 55px 0;
              font-weight: normal;
              margin-top: -30px;

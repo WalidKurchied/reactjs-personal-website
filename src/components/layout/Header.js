@@ -7,12 +7,12 @@ export default class Header extends Component {
         const header = document.getElementById('header');
         const nav = document.getElementById('mainNav');
 
-        if(header.style.height == "300px") {
-            nav.style.display = "none";
-            header.style.height = "50px";
+        if(header.classList.contains('headerMobile')) {
+            header.classList.remove('headerMobile');
+            nav.classList.remove('navMobile');
         } else {
-            nav.style.display = "inline";
-            header.style.height = "300px";
+            header.classList.add('headerMobile');
+            nav.classList.add('navMobile');
         }
     }
 
@@ -21,7 +21,7 @@ export default class Header extends Component {
             <header id="header">
                 <span id="burgerMenu" onClick={this.toggleMobileMenu}>&#x2630;</span>
                 <nav id="mainNav">
-                    <Link to="/public">Home</Link>
+                    <Link to="/">Home</Link>
                     <a href="#">Coming Soon</a>
                     <a href="#">Coming Soon</a>
                 </nav>
