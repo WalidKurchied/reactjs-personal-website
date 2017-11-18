@@ -6,7 +6,7 @@ export default class Home extends Component {
             <div id="homeContainer">
                 <section id="homeSectionOne">
                     <section id="developerCaptionContainer">
-                        <span className="captionText name-caption">
+                        <span className="name-caption">
                             WALID KURCHIED
                         </span>
                     </section>
@@ -18,9 +18,10 @@ export default class Home extends Component {
                             WHAT I DO
                         </h1>
                         <p>
-                            My name is Walid Kurchied, Im a Front-End Engineer and a UX specialist located in Ireland.
-                          I have more than 4 years of commercial experience in software design and development and currently focused mainly on the web
-                          trying to make it a better place. I have experience in working with Android, SEO (Search Engine Optimization), Back-End and Front-End development.
+                          My name is Walid Kurchied, Im a Front-End Engineer and a UX specialist located in Dublin, Ireland.
+                          I have more than 4 years of commercial experience in software design and development using a wide range of technologies. My main focus is currently on the web
+                          trying to create a better and clean websites and applications with improved design and minimal use of resources. I have experience developing mobile applications, SEO (Search Engine Optimization), Back-End and Front-End Applications.
+                          I love working with Javascript! I'm currently working with Reactjs and React Native. Check Mylinkedin profile for more information. 
                         </p>
                     </article>
 
@@ -29,11 +30,11 @@ export default class Home extends Component {
                             WHAT CAN I DO FOR YOU
                         </h1>
                         <p>
-                          I provide help and advice to thousands of people on my Instagram account "VanillaJavascript" and to many more who ask for a 1 on 1 session which usually takes place on skype or other communications means,
-                          I can provide you with anything from SEO advice and tips to User experience and development teaching, get in touch today.
+                          I provide help and advice to thousands of people on my Instagram account <b> VanillaJavascript </b> and to many more who ask for a 1 on 1 session which usually takes place on skype.
+                          So what can i do for you ? well lets start with this. I can provide you with knowledge and tips about SEO which will help search engines understand your site and products properly and keep you ahead of the competition.
+                          I can give you UX or User Experience feedback and suggestions about your website or application so that you make it easy for your users to understand your website and easily navigate through it while keeping them
+                          attracted to what you want them to notice the most. Finally i can teach development and work as a freelancer. All that depends on my availability.
                         </p>
-
-                        <button className="find-out-btn">Find Out More</button>
                     </article>
                 </section>
 
@@ -60,6 +61,10 @@ export default class Home extends Component {
                         <i className="devicon-cucumber-plain colored"></i>
                         <i className="devicon-webpack-plain colored"></i>
                    </div>
+                </section>
+
+                <section id="fun">
+                
                 </section>
 
                 <section id="expSection">
