@@ -10,6 +10,8 @@
   "author": "Walid Kurchied",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.2"
