@@ -13,8 +13,8 @@ export default class Home extends Component {
                 </section>
 
                 <section id="devInfo">
-                    <article id="leftArticle">
-                        <h1>
+                    <article id="leftArticle" className="about-me-article">
+                        <h1 className="home-section-header">
                             WHAT I DO
                         </h1>
                         <p>
@@ -25,12 +25,11 @@ export default class Home extends Component {
                         </p>
                     </article>
 
-                    <article id="rightArticle">
-                        <h1>
+                    <article id="rightArticle" className="about-me-article">
+                        <h1 className="home-section-header">
                             WHAT CAN I DO FOR YOU
                         </h1>
                         <p>
-                          I provide help and advice to thousands of people on my Instagram account <b> VanillaJavascript </b> and to many more who ask for a 1 on 1 session which usually takes place on skype.
                           So what can i do for you ? well lets start with this. I can provide you with knowledge and tips about SEO which will help search engines understand your site and products properly and keep you ahead of the competition.
                           I can give you UX or User Experience feedback and suggestions about your website or application so that you make it easy for your users to understand your website and easily navigate through it while keeping them
                           attracted to what you want them to notice the most. Finally i can teach development and work as a freelancer. All that depends on my availability.
@@ -38,9 +37,9 @@ export default class Home extends Component {
                     </article>
                 </section>
 
-                <section id="homeSectionTwo">
-                    <h1>TECHNOLOGIES I WORKED WITH</h1>
-                   <div id="technologiesListContainer">
+                <section id="homeSectionTwo" className="common-sections">
+                    <h1 className="home-section-header">TECHNOLOGIES I WORKED WITH</h1>
+                    <div id="technologiesListContainer">
                         <i className="devicon-angularjs-plain colored"></i>
                         <i className="devicon-react-original colored"></i>
                         <i className="devicon-html5-plain colored"></i>
@@ -60,15 +59,11 @@ export default class Home extends Component {
                         <i className="devicon-express-original colored"></i>
                         <i className="devicon-cucumber-plain colored"></i>
                         <i className="devicon-webpack-plain colored"></i>
-                   </div>
+                    </div>
                 </section>
 
-                <section id="fun">
-                
-                </section>
-
-                <section id="expSection">
-                    <h1>COMPANIES I WORKED FOR</h1>
+                <section id="expSection" className="common-sections">
+                    <h1 className="home-section-header">COMPANIES I WORKED FOR</h1>
                     <div id="companiesContainer">
                         <img src={require("../../images/ibm.png")} width="60px" height="33px" className="company-img" />
                         <img src={require("../../images/groupon2.png")} width="60px" height="33px" className="company-img" />

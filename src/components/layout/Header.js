@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 export default class Header extends Component {
 
     toggleMobileMenu() {
-        const header = document.getElementById('header');
         const nav = document.getElementById('mainNav');
+        const main = document.querySelector('main');
 
-        if(header.classList.contains('headerMobile')) {
-            header.classList.remove('headerMobile');
-            nav.classList.remove('navMobile');
+        if(nav.classList.contains('push-nav')) {
+            nav.classList.remove('push-nav');
+            main.classList.remove('push-main');
         } else {
-            header.classList.add('headerMobile');
-            nav.classList.add('navMobile');
+            nav.classList.add('push-nav');
+            main.classList.add('push-main');
         }
     }
 
@@ -20,10 +20,9 @@ export default class Header extends Component {
         return (
             <header id="header">
                 <span id="burgerMenu" onClick={this.toggleMobileMenu}>&#x2630;</span>
-                <nav id="mainNav">
+
+                <nav id="mainNav" className="mobile-menu-transition">
                     <Link to="/">Home</Link>
-                    <a href="#">Coming Soon</a>
-                    <a href="#">Coming Soon</a>
                 </nav>
 
                 <section id="headerIconsContainer">

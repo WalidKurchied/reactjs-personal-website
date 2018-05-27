@@ -1,4 +1,18 @@
 #homeContainer {
+    .home-section-header {
+        letter-spacing: 4px;
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .common-sections {
+         height: 100px;
+         padding: 70px 60px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+    }
 
     // Photo by Team UI8 on Unsplash
     #homeSectionOne {
@@ -37,56 +51,28 @@
     }
 
     #devInfo {
-        height: 380px;
-        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 60px;
         background-color: #11161D;
-        position: relative;
         color: #2f3f52;
-        border-top: 2px solid #4169e1;
-
-        img {
-            position: absolute;
-            width: 290px;
-            height: 290px;
-            top: 0;
-            bottom: 0;
-            left: 96px;
-            border: 1px solid white;
-            margin: auto;
-            border-radius: 20%;
-        }
 
         #leftArticle {
-            position: absolute;
-            left: 40px;
-            width: 45%;
         }
 
         #rightArticle {
-            position: absolute;
-            right: 40px;
-            width: 45%;
         }
 
-        // .find-out-btn {
-        //     background: royalblue;
-        //     border: none;
-        //     outline: none;
-        //     width: 150px;
-        //     padding: 20px;
-        //     border-radius: 5px;
-        //     margin-top: 25px;
-        //     cursor: pointer;
-        //     color: white;
-        // }
+        .about-me-article {
+            width: 48%;
+        }
 
         h1 {
             color: #888787;
-            letter-spacing: 6px;
-            font-size: 13px;
             margin: 12px 0 35px 0;
-            font-weight: normal;
         }
+       
         p {
             word-spacing: 5px;
             line-height: 35px;
@@ -94,54 +80,32 @@
     }
 
     #homeSectionTwo {
-        height: 180px;
         background-color: #f8f8ff;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
 
         h1 {
-            text-align: center;
-            color: #4a4a4a;
-            letter-spacing: 6px;
-            font-size: 13px;
-            margin: 12px 0 55px 0;
-            font-weight: normal;
-            margin-top: -30px;
-            margin-bottom: 35px;
+            position: relative;
+            top: -30px;
+            color: #000000;
         }
+
         #technologiesListContainer {
             text-align: center;
-            overflow-x: auto;
             padding: 10px;
-            width: 100%;
         }
+
         .colored {
             font-size: 25px;
-            margin: 31px;
+            margin: 0 22px;
         }
     }
 
     #expSection {
-         height: 180px;
          background-color:#11161D;
-         padding: 20px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
 
          h1 {
-             text-align: center;
+             position: relative;
+             top: -30px;
              color: #888787;
-             letter-spacing: 6px;
-             font-size: 13px; // margin-bottom: 55px;
-             margin: 12px 0 55px 0;
-             font-weight: normal;
-             margin-top: -30px;
-             margin-bottom: 35px;
          }
 
          #companiesContainer {
@@ -165,19 +129,19 @@
             }
 
             #devInfo {
-                height: auto;
+                // height: auto;
 
                 #leftArticle {
-                    position: relative;
-                    left: 0;
-                    width: 100%;
+                    // position: relative;
+                    // left: 0;
+                    // width: 100%;
                 }
 
                 #rightArticle {
-                    position: relative;
-                    right: auto;
-                    width: 100%;
-                    margin-top: 40px;
+                    // position: relative;
+                    // right: auto;
+                    // width: 100%;
+                    // margin-top: 40px;
                 }
             }
         }
