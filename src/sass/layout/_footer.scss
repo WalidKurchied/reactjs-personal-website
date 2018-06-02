@@ -1,7 +1,31 @@
 footer {
-    padding: 20px;
-    background: #11161D; //#E0E2DB;
+    background: #0c1015;//#11161D;
     color: #2f3f52;
     text-align: center;
-    border-top: 1px solid #201f1f;
+    font-size: 12px;
+
+    #contactMe {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        span {
+            margin-left: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2f3f52;
+            font-size: 12px;
+            padding: 10px;
+            // border: 1px solid;
+            transition: .8s;
+        }
+
+        a:hover {
+            background: linear-gradient(to right, #193997, #062c5a);
+            color: #f8f8ff;
+        }
+    }
 }

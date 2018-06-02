@@ -8,11 +8,11 @@ export default class Header extends Component {
         const main = document.querySelector('main');
 
         if(nav.classList.contains('push-nav')) {
-            nav.classList.remove('push-nav');
             main.classList.remove('push-main');
+            nav.classList.remove('push-nav');
         } else {
-            nav.classList.add('push-nav');
             main.classList.add('push-main');
+            nav.classList.add('push-nav');
         }
     }
 
@@ -23,6 +23,8 @@ export default class Header extends Component {
 
                 <nav id="mainNav" className="mobile-menu-transition">
                     <Link to="/">Home</Link>
+                    <Link to="#">Coming Soon</Link>
+
                 </nav>
 
                 <section id="headerIconsContainer">

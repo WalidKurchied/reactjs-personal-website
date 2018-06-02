@@ -6,7 +6,10 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                <img src={require("../../images/logo.svg")} width="60px" height="80px" />
+                <section id="contactMe">
+                    <span>@2018</span>
+                    <a href="mailto:walid.kurchied@gmail.com?Subject=Work%20Query">walid.kurchied@gmail.com</a>
+                </section>
             </footer>
         );
     }
