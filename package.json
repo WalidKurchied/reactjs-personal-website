@@ -4,7 +4,8 @@
   "description": "personal website",
   "main": "Index.js",
   "scripts": {
-    "start:dev": "webpack-dev-server",
+    "start": "webpack-dev-server",
+    "build": "npm install && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Walid Kurchied",
