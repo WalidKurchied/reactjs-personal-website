@@ -5,7 +5,7 @@
   "main": "Index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "npm install && webpack",
+    "build": "webpack",
     "postinstall": "npm install && webpack"
   },
   "author": "Walid Kurchied",
