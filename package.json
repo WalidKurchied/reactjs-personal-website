@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "npm install && webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm install && webpack"
   },
   "author": "Walid Kurchied",
   "license": "ISC",
