@@ -91,6 +91,8 @@
         #technologiesListContainer {
             text-align: center;
             padding: 10px;
+            width: 100%;
+            overflow-x: scroll;
         }
 
         .colored {
@@ -118,7 +120,16 @@
 }
 
     @media screen and (max-width: 900px) {
+
         #homeContainer {
+            * {
+                font-size: 10px;
+            }
+
+            .home-section-header {
+                font-size: 10px;
+            }
+
             #homeSectionOne {
                 .name-caption {
                     line-height: 25px;
@@ -130,6 +141,11 @@
 
             #devInfo {
                 // height: auto;
+                align-items: self-start;
+                
+                .about-me-article {
+                    width: auto;
+                }
 
                 #leftArticle {
                     // position: relative;
@@ -142,6 +158,23 @@
                     // right: auto;
                     // width: 100%;
                     // margin-top: 40px;
+                }
+            }
+
+            #expSection {
+                #companiesContainer {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+
+                // h1 {
+                //     font-size: 10px;
+                // }
+
+                .company-img {
+                    margin: 0;
                 }
             }
         }
