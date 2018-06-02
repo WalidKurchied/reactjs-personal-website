@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "npm install && webpack",
-    "postinstall": "webpack"
+    "postinstall": "npm install && webpack"
   },
   "author": "Walid Kurchied",
   "license": "ISC",
