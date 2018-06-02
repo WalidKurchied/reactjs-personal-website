@@ -5,8 +5,8 @@
   "main": "Index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack",
-    "postinstall": "npm install && webpack"
+    "build": "npm install && webpack",
+    "postinstall": "webpack"
   },
   "author": "Walid Kurchied",
   "license": "ISC",
