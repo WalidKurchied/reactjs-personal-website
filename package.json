@@ -5,9 +5,8 @@
   "main": "Index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack",
-    "heroku-postbuild": "webpack"
-  },
+    "build": "webpack"
+    },
   "author": "Walid Kurchied",
   "license": "ISC",
   "dependencies": {
@@ -30,8 +29,5 @@
     "babel-preset-react": "*"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.11.2",
-     "react": "*",
-     "react-dom": "^15.6.1"
   }
 }
