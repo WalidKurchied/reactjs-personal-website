@@ -5,8 +5,8 @@
   "main": "Index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p --config ./webpack.config.js",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js"
+    "build": "webpack --mode production",
+    "heroku-postbuild": "webpack --mode production"
   },
   "author": "Walid Kurchied",
   "license": "ISC",
