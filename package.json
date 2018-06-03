@@ -26,7 +26,8 @@
     "url-loader": "^0.6.2",
     "webpack": "^3.12.0",
     "babel-core": "*",
-    "babel-preset-es2015": "*"
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.11.2"
