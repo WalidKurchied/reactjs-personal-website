@@ -30,6 +30,8 @@
     "babel-preset-react": "*"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.11.2"
+    "webpack-dev-server": "^2.11.2",
+     "react": "*",
+     "react-dom": "^15.6.1"
   }
 }
