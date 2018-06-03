@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "heroku-postbuild": "webpack -p --config"
+    "heroku-postbuild": "webpack -p --config ./webpack.config.js"
   },
   "author": "Walid Kurchied",
   "license": "ISC",
