@@ -24,7 +24,7 @@
     "sass-loader": "^6.0.7",
     "style-loader": "^0.18.2",
     "url-loader": "^0.6.2",
-    "webpack": "^3.12.0",
+    "webpack": "*",
     "babel-core": "*",
     "babel-preset-es2015": "*",
     "babel-preset-react": "*"
