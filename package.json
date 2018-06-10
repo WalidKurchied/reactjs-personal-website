@@ -6,7 +6,6 @@
     "scripts": {
         "start": "webpack --mode production && node server.js",
         "start:dev": "webpack-dev-server",
-        "heroku-postbuild": "node server.js"
     },
     "engines": {
         "node": "9.2.0"
