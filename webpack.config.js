@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/Index.js',
     output: {
       path: path.resolve(__dirname),
-      publicPath: '/dist/',
+    //   publicPath: '/dist/',
       filename: 'bundle.js'
     },
     devServer: {
@@ -36,6 +36,7 @@ module.exports = {
             }
         ]
     },
+    mode: 'production',
     plugins: [
         new MiniCssExtractPlugin("./src/css/styles.css")
     ]
