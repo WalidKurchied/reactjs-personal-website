@@ -4,7 +4,7 @@
     "description": "personal website",
     "main": "Index.js",
     "scripts": {
-        "start": "npm install && webpack --mode production && node server.js",
+        "start": "webpack --mode production && node server.js",
         "start:dev": "webpack-dev-server"
     },
     "engines": {
