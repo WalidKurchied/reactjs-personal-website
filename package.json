@@ -8,7 +8,7 @@
         "start:dev": "webpack-dev-server"
     },
     "engines": {
-        "node": "9.2.0"
+        "node": "12.10.0"
     },
     "author": "Walid Kurchied",
     "license": "ISC",
