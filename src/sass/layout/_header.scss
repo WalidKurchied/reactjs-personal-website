@@ -45,8 +45,7 @@
         }
     }
 }
-
-@media screen and (max-width: 900px) {
+  @include small-mobile-screen {
     #header {
         #burgerMenu {
             display: inline;

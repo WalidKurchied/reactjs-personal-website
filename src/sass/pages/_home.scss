@@ -117,11 +117,8 @@
             margin: 0 55px;
         }
     }
-}
 
-    @media screen and (max-width: 900px) {
-
-        #homeContainer {
+    @include small-mobile-screen {
             * {
                 font-size: 10px;
             }
@@ -140,24 +137,17 @@
             }
 
             #devInfo {
-                // height: auto;
-                align-items: self-start;
+              flex-direction: column; 
                 
                 .about-me-article {
                     width: auto;
                 }
 
                 #leftArticle {
-                    // position: relative;
-                    // left: 0;
-                    // width: 100%;
+                    margin-bottom: 20px;
                 }
 
                 #rightArticle {
-                    // position: relative;
-                    // right: auto;
-                    // width: 100%;
-                    // margin-top: 40px;
                 }
             }
 
@@ -169,13 +159,9 @@
                     width: 100%;
                 }
 
-                // h1 {
-                //     font-size: 10px;
-                // }
-
                 .company-img {
                     margin: 0;
                 }
-            }
         }
     }
+}
