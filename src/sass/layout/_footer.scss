@@ -2,7 +2,7 @@ footer {
     background: #0c1015;//#11161D;
     color: #2f3f52;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
 
     #contactMe {
         display: flex;
@@ -17,9 +17,7 @@ footer {
         a {
             text-decoration: none;
             color: #2f3f52;
-            font-size: 12px;
             padding: 10px;
-            // border: 1px solid;
             transition: .8s;
         }
 

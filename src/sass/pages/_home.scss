@@ -1,7 +1,7 @@
 #homeContainer {
     .home-section-header {
         letter-spacing: 4px;
-        font-size: 13px;
+        font-size: 0.8125rem;
         font-weight: normal;
     }
 
@@ -45,7 +45,7 @@
             background: rgba(0, 0, 0, 0.87);
             color: #615b5b;
             letter-spacing: 20px;
-            font-size: 12px;
+            font-size: .75rem;
             transform: rotate(-11deg);
         }
     }
@@ -96,7 +96,7 @@
         }
 
         .colored {
-            font-size: 25px;
+            font-size: 1.5625rem;
             margin: 0 22px;
         }
     }
@@ -120,11 +120,11 @@
 
     @include small-mobile-screen {
             * {
-                font-size: 10px;
+                font-size: .625rem;
             }
 
             .home-section-header {
-                font-size: 10px;
+                font-size: .625rem;
             }
 
             #homeSectionOne {
