@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 
-export default class Home extends Component {
+interface Props {
+    children?: {},
+    to?: string
+}
+
+export default class Home extends Component<Props, any> {
     render() {
         return (
             <div id="homeContainer">
@@ -21,7 +26,7 @@ export default class Home extends Component {
                           My name is Walid Kurchied, Im a Front-End Engineer and a UX specialist located in Dublin, Ireland.
                           I have more than 4 years of commercial experience in software design and development using a wide range of technologies. My main focus is currently on the web
                           trying to create a better and clean websites and applications with improved design and minimal use of resources. I have experience developing mobile applications, SEO (Search Engine Optimization), Back-End and Front-End Applications.
-                          I love working with Javascript! I'm currently working with Reactjs and React Native. Check Mylinkedin profile for more information. 
+                          I love working with Javascript! I'm currently working with Reactjs and React Native. Check Mylinkedin profile for more information.
                         </p>
                     </article>
 
@@ -69,7 +74,7 @@ export default class Home extends Component {
                         <img src={require("../../images/groupon2.png")} width="60px" height="33px" className="company-img" />
                         <img src={require("../../images/topfloor.png")} width="60px" height="33px" className="company-img" />
                         <img src={require("../../images/wholeschool.png")} width="60px" height="33px" className="company-img" />
-                    </div>       
+                    </div>
                 </section>
             </div>
         );

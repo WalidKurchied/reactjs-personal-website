@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import Home from '../pages/Home';
+import Home from '../pages/Home.tsx';
 import { Route } from 'react-router-dom';
 
-export default class Main extends Component {
+interface Props {
+    children?: {},
+    to?: string
+}
+
+export default class Main extends Component<Props, any> {
     render() {
         return (
             <main className="mobile-menu-transition">

@@ -2,7 +2,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 
 module.exports = {
-    entry: './src/Index.js',
+    entry: './src/Index.tsx',
     output: {
       path: path.resolve(__dirname),
     //   publicPath: '/dist/',
@@ -11,16 +11,23 @@ module.exports = {
     devServer: {
         contentBase: './public/'
     },
+    devtool: "source-map",
+    resolve: {
+        extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js", ".scss", "scss"],
+    },
     module: {
         rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loader: "babel-loader",
-                options: {
-                  presets: ['es2015', 'react']
-                }
-            },
+            // {
+            //     test: /\.js$/,
+            //     exclude: /node_modules/,
+            //     loader: "babel-loader",
+            //     options: {
+            //       presets: ['es2015', 'react']
+            //     }
+            // },
+            { test: /\.tsx?$/, loader: "ts-loader" },
+
+            { test: /\.js$/, loader: "source-map-loader" },
             {
                 test: /\.scss$/,
                 exclude: /node_modules/,

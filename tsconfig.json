@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "module": "es6",
+      "jsx": "react",
+      "target": "es5",
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+  }

@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import Header from './layout/Header.js';
-import Main from './layout/Main.js';
-import Footer from './layout/Footer.js';
+import Header from './layout/Header.tsx';
+import Main from './layout/Main.tsx';
+import Footer from './layout/Footer.tsx';
 
-export default class App extends Component {
+interface Props {
+}
 
+export default class App extends Component<Props, any> {
    render() {
        return (
             <div id="site-container">

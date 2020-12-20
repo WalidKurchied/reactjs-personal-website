@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+interface Props {
+    children?: React.ReactNode,
+    to?: string
+}
+
 export default class Header extends Component {
 
     toggleMobileMenu() {
